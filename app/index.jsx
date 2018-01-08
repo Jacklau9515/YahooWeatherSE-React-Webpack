@@ -1,6 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import './styles/index.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import WeatherHeader from './components/YhwHeader';
 import WeatherForecast from './components/YhwForecast';
 import $ from 'jquery'; //define $ sign to make the cache recovery the jQuery syntax
@@ -74,11 +75,13 @@ class Yahooweather extends React.Component {
           unit={this.state.weather.units.temperature}
         />
         <div className="forecast">{forecast}</div>
+        <div className="search">
         <form onSubmit={this.locationSubmit.bind(this)} className="search">
-          <label htmlFor="place" >Search</label>
-          <input type="text" id="place" name="place"></input>
+          <label htmlFor="place">Search</label>
+          <input type="text" id="place" name="place"  placeholder="Please enter the city name"></input>
           <button type="submit">Update</button>
         </form>
+        </div>
         </div>
     }
   }

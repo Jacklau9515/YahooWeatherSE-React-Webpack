@@ -7,6 +7,7 @@ const BUILD_DIR = path.resolve(__dirname, './build');
 const APP_DIR = path.resolve(__dirname, './app');
 
 const config = {
+  devtool: 'eval-source-map',//生成Source Maps,这里选择eval-source-map
   entry: `${APP_DIR}/index.jsx`, // 文件打包的入口点
   output: {
     path: BUILD_DIR, // 输出目录的绝对路径
