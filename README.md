@@ -32,7 +32,7 @@ The WeatherForecase Component is used to provide the forecast for the next seven
 
 ![Forecast](https://github.com/Jacklau9515/MarkdownPhotos/blob/master/YahooWeatherSE/Body.jpg)
 
-condition codes taken from [yhw]:(https://developer.yahoo.com/weather/documentation.html#item)
+condition codes taken from [yhw]:(https://developer.yahoo.com/weather/documentation.html#item)<br>
 icons from [icon]:(https://erikflowers.github.io/weather-icons/)
 
 #### SearchForm Component
