@@ -42,6 +42,7 @@ The WeatherForecase Component is used to provide the forecast for the next seven
 
 condition codes taken from [yhw]:(https://developer.yahoo.com/weather/documentation.html#item)<br>
 icons from [icon]:(https://erikflowers.github.io/weather-icons/)
+![Icon Preview](http://i.imgur.com/XmZW2q3.png)
 
 #### SearchForm Component
 The SearchForm is use to upload the qurey via the **Yahoo Weather API** by using the **Promise** to control the Ajax. I define the promise $.ajax as a function called fetchweatherdata() in YahooWeather react.component.
@@ -70,3 +71,6 @@ npm i babel-core babel-loader babel-preset-es2015 babel-preset-react --save-dev
 npm install webpack-dev-server -g
 npm install bootstrap --save
 ```
+
+## Licensing
+* Weather Icons licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL)
