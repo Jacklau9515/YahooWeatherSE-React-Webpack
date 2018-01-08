@@ -1,7 +1,15 @@
 # YahooWeatherSE-React-Webpack
 
 ## Overview
-My first repository on GitHub to demonstrate using webpack + react + es6 to develop a componentized front-end project.
+My first repository on GitHub to demonstrate using webpack + react + es6 to develop a componentized front-end project. Each module related css, img, js files are put together to make the project more intuitive, and delete/modify relevant module will be more convenient.
+
+Features：<br>
+Compile jsx, es6, scss and other resources <br>
+Automatic introduction of static resources to the corresponding html page <br>
+Compile and refresh the browser in real time <br>
+Automatically package the module according to the specified modular specifications <br>
+Css automatically add a browser kernel prefix <br>
+On demand packaged merger js, css
 
 ## Introduction
 
@@ -54,3 +62,11 @@ The SearchForm is use to upload the qurey via the **Yahoo Weather API** by using
     }
 ```
 ![Search](https://github.com/Jacklau9515/MarkdownPhotos/blob/master/YahooWeatherSE/Searchform.JPG)
+
+## Installation
+```npm
+npm install --global webpack
+npm i babel-core babel-loader babel-preset-es2015 babel-preset-react --save-dev
+npm install webpack-dev-server -g
+npm install bootstrap --save
+```
