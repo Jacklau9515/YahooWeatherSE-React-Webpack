@@ -1,7 +1,7 @@
 # YahooWeatherSE-React-Webpack
 
 ## Overview
-My first repository on GitHub to demonstrate using **webpack + react + es6** to develop a componentized front-end project. Each module related css, img, js files are put together to make the project more intuitive, and delete/modify relevant module will be more convenient.
+My first repository on GitHub to demonstrate using **webpack + react + es6** to develop a componentized front-end project. Each module related css, img, js files are put together to make the project more intuitive, and delete/modify relevant module will be more convenient. [Demo](https://jacklau9515.github.io/)  
 
 Features：<br>
 1. Compile jsx, es6, scss and other resources <br>
@@ -74,4 +74,3 @@ npm install bootstrap --save
 
 ## Licensing
 * Weather Icons licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL)
- [demo](https://github.com/Jacklau9515/YahooWeatherSE-React-Webpack/blob/master/build/index.html)  
