@@ -101,6 +101,17 @@ body {
   top:1px;
 }
 
+.footer{
+  position:relative;
+  top:120px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#place{
+  color: black;
+}
+
 html, body {
   height: 100%;
 }

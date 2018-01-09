@@ -21,7 +21,7 @@ const config = {
         {test: /\.(js|jsx)$/, exclude: /(node_modules|bower_components)/, loader: 'babel-loader', query: {presets: ['es2015', 'react']}},
         {test: /\.css$/, loader: "style-loader!css-loader"},
         {test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' },
-        {test: /\.(jpg|png)$/, loader: "url?limit=8192"}
+        {test: /\.(jpg|png)$/, loader: "url-loader?limit=8192"}
     ]
   }
 };
