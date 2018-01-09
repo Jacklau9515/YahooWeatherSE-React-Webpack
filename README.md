@@ -74,4 +74,4 @@ npm install bootstrap --save
 
 ## Licensing
 * Weather Icons licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL)
- [demo](YahooWeatherSE-React-Webpack/build/index.html)  
+ [demo](https://github.com/Jacklau9515/YahooWeatherSE-React-Webpack/blob/master/build/index.html)  
