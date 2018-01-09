@@ -1,7 +1,7 @@
 # YahooWeatherSE-React-Webpack
 
 ## Overview
-My first repository on GitHub to demonstrate using **webpack + react + es6** to develop a componentized front-end project. Each module related css, img, js files are put together to make the project more intuitive, and delete/modify relevant module will be more convenient. [Demo](https://jacklau9515.github.io/)  
+My first repository on GitHub to demonstrate using **webpack + react + es6** to develop a componentized front-end project. Each module related css, img, js files are put together to make the project more intuitive, and delete/modify relevant module will be more convenient. [Demo](https://jacklau9515.github.io/YahooWeatherSE/)  
 
 Features：<br>
 1. Compile jsx, es6, scss and other resources <br>
